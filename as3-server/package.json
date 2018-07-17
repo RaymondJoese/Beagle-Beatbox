@@ -1,0 +1,9 @@
+{
+	"name": "433-a3-beatbox_server",
+	"version": "0.0.1",
+	"description": "433-a3-beatbox_server description!",
+	"dependencies": {
+		"socket.io": "~0.9.6",
+		"mime": "~1.2.7"
+	}
+}
