@@ -16,6 +16,7 @@
 
 enum mode{OFF_MODE, ROCK_DRUM_MODE, OTHER_MODE};
 
+// Run/Stop the thread
 void DrumMode_init(void);
 void DrumMode_Cleanup(void);
 
@@ -23,12 +24,14 @@ void DrumMode_playSound(char* fileName, int times);
 
 void sleepForNNanoSec(long);
 
+// getter and setter
 const char* DrumMode_getCurModeForPrint(void);
 enum mode DrumMode_getCurMode(void);
 void DrumMode_changCurMode(enum mode newMode);
 
 int DrumMode_getBPM (void);
 void DrumMode_setBPM(int newBPM);
+// bpm up/down for 5 units
 void DrumMode_bpmUp(void);
 void DrumMode_bpmDown(void);
 
