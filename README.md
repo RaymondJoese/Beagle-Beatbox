@@ -7,7 +7,7 @@ Beagle Beatbox is an C language application built on BeagleBone Green and Zen ca
 Linux ubuntu
 
 ## Get Started
-Create shared folder through NFS: [demo](http://www.cs.sfu.ca/CourseCentral/433/bfraser/other/NFSGuide.pdf
+Create shared folder through NFS: [demo](http://www.cs.sfu.ca/CourseCentral/433/bfraser/other/NFSGuide.pdf)
 ```
 # Download or clone repo
 git clone https://github.com/HardysJin/Beagle-Beatbox.git
